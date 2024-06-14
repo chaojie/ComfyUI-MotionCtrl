@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-motionctrl"
+description = "Nodes: Download the weights of MotionCtrl [a/motionctrl.pth](https://huggingface.co/TencentARC/MotionCtrl/blob/main/motionctrl.pth) and put it to ComfyUI/models/checkpoints"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["Pytorch-Lightning==1.9.0", "decord", "kornia", "timm", "open_clip_torch", "av", "omegaconf", "transformers", "einops", "scikit-learn", "taming-transformers-rom1504", "pandas", "pandas", "fairscale", "psutil==5.9.5", "annotated-types==0.5.0", "plotly", "imageio==2.14.1", "imageio-ffmpeg==0.4.7", "opencv-python==4.8.0.74", "moviepy", "Pillow", "tqdm", "gradio==3.37.0"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-MotionCtrl"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-MotionCtrl"
+Icon = ""
